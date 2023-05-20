@@ -80,3 +80,31 @@
 .toggle-button:checked {
     background-color: blue;
 }
+
+.cont {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.border {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.border:nth-child(2) {
+    background-color: black;
+}
+
+.border:nth-child(3) {
+    background-color: #c4c4c4;
+}
+
+.border:nth-child(4) {
+    background-color: antiquewhite;
+}
+
+#two {
+    display: none;
+}

@@ -23,21 +23,21 @@
             <h1>$89, 990</h1>
         </div>
     </div>
-    <div class="kones">
+    <div class="kones" id="one">
         <div class="item">
             <div class="i">
                 <p>Скорость автомобиля</p>
-                <h1 class="speed"><span>60</span> км/ч</h1>
+                <h1 data-i="km"><b>60 </b> км/ч</h1>
             </div>
             <div class="up-dawn">
-                <img id="up" src="./images/up.svg" alt="">
-                <img id="dawn" src="./images/dawn.svg" alt="">
+                <img src="./images/up.svg" alt="">
+                <img src="./images/dawn.svg" alt="">
             </div>
         </div>
         <div class="item">
             <div class="i">
                 <p>Температура за окнами</p>
-                <h1>20°</h1>
+                <h1 data-i="temp"><b>20 </b> °</h1>
             </div>
             <div class="up-dawn">
                 <img src="./images/up.svg" alt="">
@@ -47,7 +47,7 @@
         <div class="item">
             <div class="i">
                 <p>Диски</p>
-                <h1>19</h1>
+                <h1 data-i="disk"><b>19</b></h1>
             </div>
             <div class="up-dawn">
                 <img src="./images/up.svg" alt="">
@@ -64,7 +64,19 @@
         </div>
         <div class="i">
             <p>Вид автомобиля</p>
-            <input type="checkbox" class="toggle-button active">
+            <input type="checkbox" id="vid" class="toggle-button active">
+        </div>
+    </div>
+    <div class="kones" id="two">
+        <div class="item">
+            <p>Цвет салона</p>
+            <div data-color="black" class="border"></div>
+            <div data-color="white" class="border"></div>
+            <div data-color="gray" class="border"></div>
+        </div>
+        <div class="item">
+            <p>Вид автомобиля</p>
+            <input type="checkbox" id="vid" class="toggle-button active">
         </div>
     </div>
     <script src="./script.js"></script>
